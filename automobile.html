@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Automobile - GTC Services</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#222;
+}
+
+header{
+    background:#0057b8;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+header img{
+    width:180px;
+    max-width:80%;
+}
+
+header h1{
+    font-size:38px;
+    margin-top:15px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+nav{
+    background:#222;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    margin:5px;
+    padding:10px 15px;
+    border-radius:6px;
+}
+
+nav a:hover{
+    background:#0057b8;
+}
+
+.container{
+    padding:40px 20px;
+}
+
+.container h2{
+    text-align:center;
+    color:#0057b8;
+    margin-bottom:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    max-width:1000px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#0057b8;
+    margin-bottom:15px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+.whatsapp{
+    display:inline-block;
+    background:#25D366;
+    color:black;
+    padding:14px 22px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+.contact{
+    background:#0057b8;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:30px;
+}
+
+.contact h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+.contact p{
+    margin:8px 0;
+}
+
+.contact a{
+    color:white;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:700px){
+    .gallery{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:450px){
+    .gallery{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.png" alt="Logo GTC Services">
+
+<h1>🚗 GTC SERVICES</h1>
+
+<p>Importation & Vente Automobile</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">🏠 Accueil</a>
+
+<a href="immobilier.html">🏡 Immobilier</a>
+
+<a href="btp.html">🏗 BTP</a>
+
+<a href="titres.html">📄 Titres fonciers</a>
+
+<a href="automobile.html">🚗 Automobile</a>
+
+</nav>
+
+<section class="container">
+
+<h2>🚗 Nos Véhicules</h2>
+
+<div class="card">
+
+<h3>🚘 Véhicules disponibles</h3>
+
+<div class="gallery">
+
+<img src="auto1.jpg" alt="Véhicule 1">
+<img src="auto2.jpg" alt="Véhicule 2">
+<img src="auto3.jpg" alt="Véhicule 3">
+<img src="auto4.jpg" alt="Véhicule 4">
+<img src="auto5.jpg" alt="Véhicule 5">
+<img src="auto6.jpg" alt="Véhicule 6">
+
+<img src="auto7.jpg" alt="Véhicule 7">
+<img src="auto8.jpg" alt="Véhicule 8">
+<img src="auto9.jpg" alt="Véhicule 9">
+<img src="auto10.jpg" alt="Véhicule 10">
+<img src="auto11.jpg" alt="Véhicule 11">
+<img src="auto12.jpg" alt="Véhicule 12">
+
+<img src="auto13.jpg" alt="Véhicule 13">
+<img src="auto14.jpg" alt="Véhicule 14">
+<img src="auto15.jpg" alt="Véhicule 15">
+<img src="auto16.jpg" alt="Véhicule 16">
+<img src="auto17.jpg" alt="Véhicule 17">
+<img src="auto18.jpg" alt="Véhicule 18">
+
+</div>
+
+<br>
+
+<a class="whatsapp"
+href="https://wa.me/237695211366?text=Bonjour%20GTC%20Services,%20je%20suis%20intéressé%20par%20un%20véhicule."
+target="_blank">
+
+📱 Demander des informations sur un véhicule
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>🔑 Vente de véhicules sur commande</h3>
+
+<p>
+Vous recherchez un véhicule particulier ?
+Contactez GTC Services et indiquez-nous le modèle,
+l'année et votre budget.
+</p>
+
+<a class="whatsapp"
+href="https://wa.me/237695211366?text=Bonjour%20GTC%20Services,%20je%20suis%20intéressé%20par%20un%20véhicule."
+target="_blank">
+
+📱 Commander un véhicule sur WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>📞 Nos Coordonnées</h2>
+
+<p>📍 Yaoundé - Cameroun</p>
+
+<p>📱 WhatsApp : 695 211 366</p>
+<p>📞 Appel :</p>
+
+<a href="tel:+237695211377">695 211 377</a>
+<br>
+
+<a href="tel:+237655906666">655 906 666</a>
+
+<p>📧 Email : gtcservicescameroon@gmail.com</p>
+
+<p>📸 Instagram : Servicescameroun GTC</p>
+
+<p>🕒 Disponible du lundi au dimanche</p>
+
+<a class="whatsapp"
+href="https://wa.me/237695211366"
+target="_blank">
+
+📱 Contacter GTC Services
+
+</a>
+
+</section>
+
+<footer>
+
+© 2026 GTC SERVICES - Tous droits réservés
+
+</footer>
+
+</body>
+</html>
